@@ -1,6 +1,33 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    margin: 0 10%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+
+ul {
+    width: 500px;
+    padding: 15px;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 3px;
+    padding: 3px;
+   
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color:blueviolet;
 }
 
 .container {
@@ -39,8 +66,7 @@ body {
 
 .font-panel {
     display: inline-block;
-    width: 35%;
-    margin: 10px auto;
+    width: 45%;
 }
 
 .font-title {
@@ -54,4 +80,12 @@ body {
 
 .font-italic {
     font-style: italic;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.brushScript {
+    font-family: 'Brush Script MT', cursive;
 }

@@ -1,11 +1,31 @@
+/* Main body structure and text */
+
 body {
     font-family: 'Courier New', Courier, monospace;
     width: 90%;
     margin: 0 auto;
     background-color: #efefef;
+    font-size: 16px;
+    font-weight: 400px;
 }
 
-ul {
+h1 {
+    font-weight: 800px;
+    font-size: 30px;
+    color: #F33A6A
+
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #191970
+}
+
+/* Nav element and links */
+
+nav ul {
     width: 500px;
     padding: 15px;
     margin: 0px auto 20px auto;
@@ -30,11 +50,15 @@ a:hover {
     color:blueviolet;
 }
 
+/* Setting up container structure */
+
 .container {
     border: 2px solid grey;
     padding: 10px;
     margin: 10px auto;
 }
+
+/* Page color styles container */
 
 .color-container {
     width: 100%;
@@ -64,6 +88,8 @@ a:hover {
     background-color: #B2BEB5;
 }
 
+/* Page font style container */
+
 .font-panel {
     display: inline-block;
     width: 45%;
@@ -88,4 +114,36 @@ a:hover {
 
 .brushScript {
     font-family: 'Brush Script MT', cursive;
+}
+
+/* Page text styles container */
+
+
+.box {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;
+    position: relative;
+    left: 185px;
+    bottom: 38px;
+    background-color: #F33A6A
+}
+
+li {
+    padding: 10px;
+}
+
+#h2font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h2box {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #000000;
+    position: relative;
+    left: 270px;
+    bottom: 38px;
+    background-color: #191970;
+
 }
